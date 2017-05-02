@@ -7,6 +7,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 
+/*
+* Most of the code comes from https://www.youtube.com/watch?v=7Gdxl2045l8&t=2711s
+* 
+*/
 
 public class Main extends Application {
 	@Override
