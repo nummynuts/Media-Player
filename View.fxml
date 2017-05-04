@@ -12,14 +12,15 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.media.MediaView?>
 
-
+<!--Construct primary window pane for application-->
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
    <children>
+      <!--Menu Bar object to contain functionality to open media files and exit application-->
       <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-                  <MenuItem mnemonicParsing="false" onAction="#handleButtonAction" text="Open" />
+              <MenuItem mnemonicParsing="false" onAction="#handleButtonAction" text="Open" />
               <MenuItem mnemonicParsing="false" onAction="#exit" text="Quit" />
             </items>
           </Menu>
@@ -36,6 +37,7 @@
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" SplitPane.resizableWithParent="false">
                <children>
                   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <!--The children in this HBox are the elements of the 'button bar' used to control the media playback-->
                      <children>
                         <Label text="Volume  " />
                         <Slider fx:id="volumeSlider" />
