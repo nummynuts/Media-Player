@@ -9,7 +9,8 @@ import javafx.scene.layout.BorderPane;
 
 /*
 * Most of the code comes from https://www.youtube.com/watch?v=7Gdxl2045l8&t=2711s
-* 
+* The majority of functionality is handled in the .xml files 
+*
 */
 
 public class Main extends Application {
