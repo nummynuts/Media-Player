@@ -22,6 +22,10 @@ import javafx.scene.media.MediaView;
 import javafx.stage.FileChooser;
 import javafx.util.Duration;
 
+/*
+* As the following code dictates, the handling for component variables is done within the .xml files.
+* This allows for modularized field editing and rapid View redeployment without sacrificing core functionality.
+*/
 public class MainController implements Initializable{
 	
 	private boolean isRatio = false;
